@@ -1,0 +1,112 @@
+.title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.student-data {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.student-data input {
+    width: 100px;
+}
+
+.student-data-changeable {
+    width: 90%;
+}
+
+.edu-radio {
+    display: flex;
+    margin-top: 2px;
+}
+
+.edu-radio input {
+    height:15px; width:15px;
+    margin: 5px 2px;
+}
+
+#prop-label {
+    margin-right: 5px;
+}
+
+.student-item-action {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+
+.student-item-action button {
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.new-student {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    left: 48px;
+    padding: 10px 20px;
+}
+
+.new-student-prop-wrapper {
+    margin-top: 20px;
+}
+
+.new-student-input {
+    float: right;
+}
+
+.new-student p {
+    text-align: center;
+}
+
+.new-student button {
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    text-align: center;
+    float: right;
+}
+
+.student-type-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.new-student-prop-wrapper input {
+    margin-left: 10px;
+}
+
+#avg-input {
+    width: 35px;
+}
+
+#age-input {
+    width: 35px;
+}
+
+#group-input {
+    width: 70px;
+}
+
+.students-table-item {
+    width: 100%;
+}

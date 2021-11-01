@@ -1,0 +1,128 @@
+.groups {
+    width: 60%;
+}
+
+.table-groups {
+    margin-top: 50px;
+    width: 90%;
+}
+
+.table-groups-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.searchBar {
+    text-align: center;
+    margin: 30px 30px 30px 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+    margin-left: 15%;
+}
+
+.table-group-item {
+    margin-left: 10%;
+}
+
+.group-data {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.table-group-data {
+    width: 80%;
+}
+
+.group-data input {
+    width: 100px;
+}
+
+.radio-wrapper {
+    display: flex;
+    width: 150px;
+}
+
+.group-item-action {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+
+.group-item-action button {
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.group-data-changeable {
+    width: 60%;
+}
+
+.edu-radio {
+    display: flex;
+    margin-top: 2px;
+}
+
+.edu-radio input {
+    height:15px; width:15px;
+    margin: 5px 2px;
+}
+
+#course-label {
+    margin-right: 5px;
+}
+
+.new-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    right: 100px;
+    padding: 10px 20px;
+}
+
+.new-group-prop-wrapper {
+    margin-top: 20px;
+}
+
+.new-group-input {
+    float: right;
+}
+
+.new-group p {
+    text-align: center;
+}
+
+.new-group button {
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    text-align: center;
+    float: right;
+}
+
+.group-type-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.new-group-prop-wrapper input {
+    margin-left: 10px;
+}
